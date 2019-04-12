@@ -1,0 +1,20 @@
+/**********************************************************************
+ * My assingment2-05
+ * Created by: Gavin Zhou 
+ * Created on: April 2019
+ *
+ **********************************************************************/
+
+public class VehicleMain{
+	public static void main(String[] args) {
+
+		Vehicle vehicle = new Vehicle(21554,4,50,120,"Black");
+		Truck truckObject = new Truck(21487, 2, 50, 100, "yellow", 200);
+		Bike bikeObject = new Bike(000, 0, 12, 15, "red",7);
+		
+		vehicle.speak();
+		System.out.println();
+		truckObject.speak();
+		
+	}
+}	
